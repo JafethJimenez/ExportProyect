@@ -1,3 +1,6 @@
+*{
+    color: rgb(246, 206, 178);
+}
 .all-images{
     width: 300px;
     margin: auto;
@@ -87,25 +90,195 @@
     margin-top: 20px;
     width: 75%;
 }
-
-#cards{
-    margin: 0 auto;
-    margin-top: 500px;
-    
-}
-#card1, #card2, #card3{
-    padding: 40px;
-
-}
-#navbar{
-    background-color: white;
-    padding: 30px;
-}
 #logo{
     width: 150px;
     display: flex;
     margin: 0 auto;
 }
+#cards{
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    
+}
+
+#card1, #card2, #card3{
+    padding: 40px;
+    
+
+}
+#tcard1 .card-img-top:hover{
+    transform: scale(1.1);
+    transition: 300ms;
+    
+}
+#tcard2 .card-img-top:hover{
+    transform: scale(1.1);
+    transition: 300ms;
+    
+}
+#tcard3 .card-img-top:hover{
+    transform: scale(1.1);
+    transition: 300ms;
+    
+}
+
 #h11{
     text-align: center;
+    background-color: rgb(8, 8, 8);
+    color: rgb(246, 206, 178);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+header{
+    background-color: rgb(68, 2, 4);
+}
+
+#navbar{
+    background-color: rgb(68, 2, 4);
+    padding: 30px;
+    color: rgb(246, 206, 178);
+    box-shadow: 10px 3px 4px 5px;
+}
+#navH{
+    color: rgb(246, 206, 178);
+}
+#navbarNavDropdown li a{
+    color: rgb(246, 206, 178);
+}
+body{
+    background-color: rgb(197, 26, 45);
+}
+.Tc1{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 500px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 10px;
+    background-color: rgb(68, 2, 4);
+    color: rgb(246, 206, 178);
+}
+
+.df1{
+   background-color: transparent;
+   grid-column-start: 1;
+   grid-column-end: 2;
+   grid-row-start: 1;
+   grid-row-end: 2;
+   
+}
+.df2{
+    background-color: transparent;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.df3{
+    background-color: transparent;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.df4{
+    background-color: transparent;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.ilf{
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.df2, .df3, .df4{
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.df2 > a{
+    color: rgb(246, 206, 178);
+    padding-left: 10px;
+    text-decoration: none;
+}
+.df2 > a:hover{
+    color: rgb(189, 153, 128);
+    padding-left: 10px;
+    text-decoration: none;
+
+}
+.df3 a{
+    color: rgb(246, 206, 178);
+    padding-left: 15px;
+    text-decoration: none;
+}
+.df3 a:hover{
+    color: rgb(189, 153, 128);
+    padding-left: 15px;
+    text-decoration: none;
+}
+.df4 a{
+    color: rgb(246, 206, 178);
+    padding-left: 15px;
+    text-decoration: none;
+}
+.df4 a:hover{
+    color: rgb(189, 153, 128);
+    padding-left: 15px;
+    text-decoration: none;
+}
+.lpictures{
+    display: grid;
+    grid-template-columns: repeat(5, 5fr);
+    
+}
+.die{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.ie{
+    width: 60px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.ie:hover{
+    transform: scale(1.2);
+    transition: 300ms;
+}
+.dip{
+   grid-column-start: 3;
+   grid-column-end: 4;
+}
+.ip{
+    width: 60px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.ip:hover{
+    transform: scale(1.2);
+    transition: 300ms;
+}
+.dii{
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.ii{
+    width: 60px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.ii:hover{
+    transform: scale(1.2);
+    transition: 300ms;
 }
